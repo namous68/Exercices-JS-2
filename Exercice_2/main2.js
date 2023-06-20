@@ -1,6 +1,6 @@
-let lastname = document.getElementById('lastname')
+document.getElementById('lastname')
 
-lastname.addEventListener('onfocusout', myfunction)
+lastname.addEventListener('focusout', myfunction)
 
 function myfunction (){
   alert("Merci de votre participation");
